@@ -6,8 +6,14 @@ import ReactMarkdown from "react-markdown";
 import { motion } from "framer-motion";
 import Image from "next/image"; // Import Image from next/image
 
+type PitItem = {
+  name: string;
+  link?: string;  // Optional, because not every item may have a link
+  superscriptLink?: string;  // Optional, because not every item may have a superscriptLink
+};
+
 const FallingTextIntoPit = () => {
-  const [data, setData] = useState<any[]>([]);  // Store the JSON data as an array
+  const [data, setData] = useState<PitItem[]>([]);  // Store the JSON data as an array
   const [lines, setLines] = useState<string[]>([]);
 
   // Fetch the JSON content
