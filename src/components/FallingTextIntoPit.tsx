@@ -5,6 +5,7 @@ import axios from "axios";
 import ReactMarkdown from "react-markdown";
 import { motion } from "framer-motion";
 import Image from "next/image"; // Import Image from next/image
+import { CSSProperties } from "react";
 
 type PitItem = {
   name: string;
@@ -113,7 +114,7 @@ const FallingTextIntoPit = () => {
 };
 
 // Styles
-const styles = {
+const styles: { [key: string]: CSSProperties } = {
   container: {
     position: "relative",
     height: "100vh", // Full screen height
