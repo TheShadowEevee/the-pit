@@ -1,43 +1,21 @@
 'use client'; // Mark this component as a client-side component
 
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import ReactMarkdown from "react-markdown";
 import { motion } from "framer-motion";
 import Image from "next/image"; // Import Image from next/image
 import { CSSProperties } from "react";
-
-type PitItem = {
-  name: string;
-  link?: string;  // Optional, because not every item may have a link
-  superscriptLink?: string;  // Optional, because not every item may have a superscriptLink
-};
+import { buttonVariants } from "@/components/ui/button";
+import { pitOccupants } from "./pit-list";
+import Link from "next/link";
 
 const FallingTextIntoPit = () => {
-  const [data, setData] = useState<PitItem[]>([]);  // Store the JSON data as an array
   const [lines, setLines] = useState<string[]>([]);
-
-  // Fetch the JSON content
-  useEffect(() => {
-    axios.get("/pit-list.json")  // Fetch pit-list.json
-      .then(response => {
-        console.log(response.data);  // Log the response to inspect it
-        // Ensure the response data is an array before setting it
-        if (Array.isArray(response.data)) {
-          setData(response.data);  // Set the JSON data if it's an array
-        } else {
-          console.error("Expected an array, but received:", response.data);
-        }
-      })
-      .catch(error => {
-        console.error("Error fetching JSON file:", error);
-      });
-  }, []);
 
   // Format the JSON data into the desired structure
   useEffect(() => {
-    if (data.length > 0) {
-      const formattedLines = data.map(item => {
+    if (pitOccupants.length > 0) {
+      const formattedLines = pitOccupants.map(item => {
         // Construct the markdown format with optional link and superscript link
         const linkPart = item.link ? `[${item.name}](${item.link})` : item.name;
         const superscriptPart = item.superscriptLink ? `<sub>[?](${item.superscriptLink})</sub>` : "";
@@ -48,7 +26,7 @@ const FallingTextIntoPit = () => {
 
       setLines(formattedLines);  // Set the formatted lines
     }
-  }, [data]);
+  }, []);
 
   // Helper function to generate a random skew and rotation
   const getRandomSkewAndRotate = () => {
@@ -109,6 +87,9 @@ const FallingTextIntoPit = () => {
           </motion.div>
         ))}
       </div>
+      <div style={styles.buttonContainer}>
+        <Link className={buttonVariants({ variant: "outline"})} href="/occupants">Pit Occupancy List</Link>
+      </div>
     </div>
   );
 };
@@ -146,6 +127,13 @@ const styles: { [key: string]: CSSProperties } = {
     textAlign: "center",
     color: "rgba(255, 128, 0, 1)", // Add a background color for debugging
     zIndex: 10,  // Ensure text is above the pit
+  },
+  buttonContainer: {
+    position: "absolute",
+    top: "0",
+    width: "10%",
+    textAlign: "center",
+    zIndex: 15,  // Ensure alert is above the text
   },
   line: {
     fontSize: "24px",
