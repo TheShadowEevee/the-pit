@@ -27,7 +27,7 @@ export const columns: ColumnDef<pitOccupant>[] = [
 export const pitOccupants: pitOccupant[] = [
   {
     name: "Anyone Named Matthew",
-    link: "",
+    link: "https://en.wikipedia.org/wiki/Matthew",
     superscriptLink: "",
     reason: ""
   },
@@ -231,13 +231,13 @@ export const pitOccupants: pitOccupant[] = [
   },
   {
     name: "FizzyApple12",
-    link: "",
+    link: "https://fizzyapple12.com",
     superscriptLink: "",
     reason: ""
   },
   {
     name: "FizzyApple12",
-    link: "",
+    link: "https://fizzyapple12.com",
     superscriptLink: "",
     reason: ""
   },

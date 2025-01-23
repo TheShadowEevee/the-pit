@@ -43,9 +43,9 @@ export function DataTable<TData, TValue>({
                     {header.isPlaceholder
                       ? null
                       : flexRender(
-                          header.column.columnDef.header,
-                          header.getContext()
-                        )}
+                        header.column.columnDef.header,
+                        header.getContext()
+                      )}
                   </TableHead>
                 )
               })}
@@ -61,7 +61,14 @@ export function DataTable<TData, TValue>({
               >
                 {row.getVisibleCells().map((cell) => (
                   <TableCell key={cell.id}>
-                    {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                    {(cell.id.includes("link")) ? (
+                      <a style={{
+                          textDecoration: "underline"
+                        }} 
+                        href={cell.getContext().getValue() as string}>
+                        {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                      </a>
+                    ) : flexRender(cell.column.columnDef.cell, cell.getContext())}
                   </TableCell>
                 ))}
               </TableRow>
