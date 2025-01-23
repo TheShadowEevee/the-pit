@@ -264,5 +264,11 @@ export const pitOccupants: pitOccupant[] = [
     link: "https://youtu.be/aKCgL6eO_1Y",
     superscriptLink: "",
     reason: "By request by dummy"
+  },
+  {
+    name: "Quanta",
+    link: "https://myanimelist.net/profile/Quanta_Anime",
+    superscriptLink: "",
+    reason: "He knows why (His anime takes)"
   }
 ]
