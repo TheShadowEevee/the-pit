@@ -155,7 +155,7 @@ export const pitOccupants: pitOccupant[] = [
     name: "lonewolf225",
     link: "https://charbroil.me/",
     superscriptLink: "",
-    reason: ""
+    reason: "🍰"
   },
   {
     name: "PayPal",
