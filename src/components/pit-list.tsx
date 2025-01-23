@@ -137,7 +137,7 @@ export const pitOccupants: pitOccupant[] = [
     name: "purduehackers/id",
     link: "https://github.com/purduehackers/id",
     superscriptLink: "",
-    reason: ""
+    reason: "For being ID. That is enough."
   },
   {
     name: "The Boilermaker XTRA Special",
