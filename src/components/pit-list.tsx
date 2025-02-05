@@ -270,5 +270,17 @@ export const pitOccupants: pitOccupant[] = [
     link: "https://myanimelist.net/profile/Quanta_Anime",
     superscriptLink: "",
     reason: "He knows why (His anime takes)"
-  }
+  },
+  {
+    name: "USPS",
+    link: "https://www.usps.com",
+    superscriptLink: "",
+    reason: "Repeated failures to deliver a package"
+  },
+  {
+    name: "USPS",
+    link: "https://www.usps.com",
+    superscriptLink: "",
+    reason: "Repeated failures to deliver a package"
+  },
 ]
