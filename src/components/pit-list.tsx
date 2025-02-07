@@ -283,4 +283,46 @@ export const pitOccupants: pitOccupant[] = [
     superscriptLink: "",
     reason: "Repeated failures to deliver a package"
   },
+  {
+    name: "ALSA",
+    link: "https://www.alsa-project.org",
+    superscriptLink: "",
+    reason: "By Request"
+  },
+  {
+    name: "ALSA",
+    link: "https://www.alsa-project.org",
+    superscriptLink: "",
+    reason: "By Request"
+  },
+  {
+    name: "ALSA",
+    link: "https://www.alsa-project.org",
+    superscriptLink: "",
+    reason: "By Request"
+  },
+  {
+    name: "ALSA",
+    link: "https://www.alsa-project.org",
+    superscriptLink: "",
+    reason: "By Request"
+  },
+  {
+    name: "ALSA",
+    link: "https://www.alsa-project.org",
+    superscriptLink: "",
+    reason: "By Request"
+  },
+  {
+    name: "ALSA",
+    link: "https://www.alsa-project.org",
+    superscriptLink: "",
+    reason: "By Request"
+  },
+  {
+    name: "ALSA",
+    link: "https://www.alsa-project.org",
+    superscriptLink: "",
+    reason: "By Request"
+  },
 ]
