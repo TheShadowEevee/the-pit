@@ -325,4 +325,16 @@ export const pitOccupants: pitOccupant[] = [
     superscriptLink: "",
     reason: "By Request"
   },
+  {
+    name: "GitHub",
+    link: "https://github.com",
+    superscriptLink: "",
+    reason: "Nearly causing someone to be fired due to platform failures"
+  },
+  {
+    name: "GitHub",
+    link: "https://github.com",
+    superscriptLink: "",
+    reason: "Changing GitHub CoPilot UI in a way that breaks the extension that hides the button to open it"
+  },
 ]
