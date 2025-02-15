@@ -337,4 +337,10 @@ export const pitOccupants: pitOccupant[] = [
     superscriptLink: "",
     reason: "Changing GitHub CoPilot UI in a way that breaks the extension that hides the button to open it"
   },
+  {
+    name: "lonewolf225",
+    link: "https://charbroil.me/",
+    superscriptLink: "",
+    reason: "🍰"
+  },
 ]
