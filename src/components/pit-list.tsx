@@ -343,4 +343,22 @@ export const pitOccupants: pitOccupant[] = [
     superscriptLink: "",
     reason: "🍰"
   },
+  {
+    name: "AT&T",
+    link: "https://www.att.com",
+    superscriptLink: "",
+    reason: "Cable Cutting"
+  },
+  {
+    name: "AT&T",
+    link: "https://www.att.com",
+    superscriptLink: "",
+    reason: "Service Disrupting"
+  },
+  {
+    name: "AT&T",
+    link: "https://www.att.com",
+    superscriptLink: "",
+    reason: "General Issues"
+  },
 ]
