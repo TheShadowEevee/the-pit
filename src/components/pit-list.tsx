@@ -361,4 +361,10 @@ export const pitOccupants: pitOccupant[] = [
     superscriptLink: "",
     reason: "General Issues"
   },
+  {
+    name: "rayhanadev",
+    link: "https://www.linkedin.com/in/rayhanadev",
+    superscriptLink: "",
+    reason: "I don't even anymore with this one"
+  },
 ]
