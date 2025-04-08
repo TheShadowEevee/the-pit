@@ -63,37 +63,37 @@ export const pitOccupants: pitOccupant[] = [
   },
   {
     name: "rayhanadev",
-    link: "https://www.linkedin.com/in/rayhanadev",
+    link: "https://www.rayhanadev.com",
     superscriptLink: "",
     reason: ""
   },
   {
     name: "rayhanadev",
-    link: "https://www.linkedin.com/in/rayhanadev",
+    link: "https://www.rayhanadev.com",
     superscriptLink: "",
     reason: ""
   },
   {
     name: "rayhanadev",
-    link: "https://www.linkedin.com/in/rayhanadev",
+    link: "https://www.rayhanadev.com",
     superscriptLink: "",
     reason: ""
   },
   {
     name: "rayhanadev",
-    link: "https://www.linkedin.com/in/rayhanadev",
+    link: "https://www.rayhanadev.com",
     superscriptLink: "",
     reason: ""
   },
   {
     name: "rayhanadev",
-    link: "https://www.linkedin.com/in/rayhanadev",
+    link: "https://www.rayhanadev.com",
     superscriptLink: "",
     reason: ""
   },
   {
     name: "rayhanadev",
-    link: "https://www.linkedin.com/in/rayhanadev",
+    link: "https://www.rayhanadev.com",
     superscriptLink: "",
     reason: ""
   },
@@ -105,25 +105,25 @@ export const pitOccupants: pitOccupant[] = [
   },
   {
     name: "rayhanadev",
-    link: "https://www.linkedin.com/in/rayhanadev",
+    link: "https://www.rayhanadev.com",
     superscriptLink: "",
     reason: ""
   },
   {
     name: "rayhanadev",
-    link: "https://www.linkedin.com/in/rayhanadev",
+    link: "https://www.rayhanadev.com",
     superscriptLink: "",
     reason: ""
   },
   {
     name: "rayhanadev",
-    link: "https://www.linkedin.com/in/rayhanadev",
+    link: "https://www.rayhanadev.com",
     superscriptLink: "",
     reason: ""
   },
   {
     name: "rayhanadev",
-    link: "https://www.linkedin.com/in/rayhanadev",
+    link: "https://www.rayhanadev.com",
     superscriptLink: "",
     reason: ""
   },
@@ -165,7 +165,7 @@ export const pitOccupants: pitOccupant[] = [
   },
   {
     name: "rayhanadev",
-    link: "https://www.linkedin.com/in/rayhanadev",
+    link: "https://www.rayhanadev.com",
     superscriptLink: "",
     reason: ""
   },
@@ -255,7 +255,7 @@ export const pitOccupants: pitOccupant[] = [
   },
   {
     name: "rayhanadev",
-    link: "https://www.linkedin.com/in/rayhanadev",
+    link: "https://www.rayhanadev.com",
     superscriptLink: "",
     reason: "Not using capital letters where they should be used."
   },
@@ -363,7 +363,7 @@ export const pitOccupants: pitOccupant[] = [
   },
   {
     name: "rayhanadev",
-    link: "https://www.linkedin.com/in/rayhanadev",
+    link: "https://www.rayhanadev.com",
     superscriptLink: "",
     reason: "I don't even anymore with this one"
   },
