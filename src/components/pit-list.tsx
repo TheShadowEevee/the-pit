@@ -365,6 +365,12 @@ export const pitOccupants: pitOccupant[] = [
     name: "rayhanadev",
     link: "https://www.rayhanadev.com",
     superscriptLink: "",
-    reason: "I don't even anymore with this one"
+    reason: ""
+  },
+  {
+    name: "veins",
+    link: "",
+    superscriptLink: "",
+    reason: "As in, the things that carry blood. Just like, in general. Mildly inconvenient, those."
   },
 ]
